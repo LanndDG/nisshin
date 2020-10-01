@@ -1,0 +1,20 @@
+[Thu Oct 01 01:32:16 2020] [error] [client 114.119.139.212] File does not exist: /www/a-mail/nisshin-shouji.co.jp/public_html/top_sozai
+[Thu Oct 01 02:35:37 2020] [error] [client 119.230.78.253] File does not exist: /www/a-mail/nisshin-shouji.co.jp/public_html/favicon.ico, referer: http://www.nisshin-shouji.co.jp/
+[Thu Oct 01 03:40:41 2020] [error] [client 54.37.160.146] File does not exist: /www/a-mail/nisshin-shouji.co.jp/public_html/wp-content, referer: www.google.com
+[Thu Oct 01 03:51:39 2020] [error] [client 18.219.110.98] File does not exist: /www/a-mail/nisshin-shouji.co.jp/public_html/favicon.ico, referer: http://nisshin-shouji.co.jp/
+[Thu Oct 01 03:51:40 2020] [error] [client 18.219.110.98] File does not exist: /www/a-mail/nisshin-shouji.co.jp/public_html/robots.txt
+[Thu Oct 01 04:04:44 2020] [error] [client 34.204.185.188] File does not exist: /www/a-mail/nisshin-shouji.co.jp/public_html/robots.txt
+[Thu Oct 01 04:04:44 2020] [error] [client 34.204.185.188] File does not exist: /www/a-mail/nisshin-shouji.co.jp/public_html/blog
+[Thu Oct 01 04:04:44 2020] [error] [client 34.204.185.188] File does not exist: /www/a-mail/nisshin-shouji.co.jp/public_html/blog
+[Thu Oct 01 04:04:44 2020] [error] [client 34.204.185.188] File does not exist: /www/a-mail/nisshin-shouji.co.jp/public_html/wordpress
+[Thu Oct 01 04:04:45 2020] [error] [client 34.204.185.188] File does not exist: /www/a-mail/nisshin-shouji.co.jp/public_html/wp
+[Thu Oct 01 07:55:27 2020] [error] [client 114.119.142.7] File does not exist: /www/a-mail/nisshin-shouji.co.jp/public_html/kaisha_gaiyo.html
+[Thu Oct 01 10:14:00 2020] [error] [client 14.189.2.47] File does not exist: /www/a-mail/nisshin-shouji.co.jp/public_html/favicon.ico, referer: http://www.nisshin-shouji.co.jp/business.html
+[Thu Oct 01 10:14:28 2020] [error] [client 14.167.0.130] File does not exist: /www/a-mail/nisshin-shouji.co.jp/public_html/robots.txt
+[Thu Oct 01 10:14:29 2020] [error] [client 14.167.0.130] File does not exist: /www/a-mail/nisshin-shouji.co.jp/public_html/robots.txt
+[Thu Oct 01 10:14:32 2020] [error] [client 14.167.0.130] File does not exist: /www/a-mail/nisshin-shouji.co.jp/public_html/favicon.ico, referer: http://www.nisshin-shouji.co.jp/business.html
+[Thu Oct 01 10:16:29 2020] [error] [client 117.2.155.124] File does not exist: /www/a-mail/nisshin-shouji.co.jp/public_html/favicon.ico, referer: http://www.nisshin-shouji.co.jp/business.html
+[Thu Oct 01 10:16:48 2020] [error] [client 42.116.174.100] File does not exist: /www/a-mail/nisshin-shouji.co.jp/public_html/favicon.ico, referer: http://www.nisshin-shouji.co.jp/business.html
+[Thu Oct 01 10:17:35 2020] [error] [client 66.249.79.245] File does not exist: /www/a-mail/nisshin-shouji.co.jp/public_html/robots.txt
+[Thu Oct 01 10:17:35 2020] [error] [client 66.249.79.245] File does not exist: /www/a-mail/nisshin-shouji.co.jp/public_html/favicon.ico
+[Thu Oct 01 10:19:05 2020] [error] [client 171.225.211.112] File does not exist: /www/a-mail/nisshin-shouji.co.jp/public_html/favicon.ico, referer: http://www.nisshin-shouji.co.jp/business.html

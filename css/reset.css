@@ -1,0 +1,178 @@
+@charset "utf-8";
+/************************************************************************************************************************************
+	local server Web-font
+************************************************************************************************************************************/
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+/* Noto Serif Japanese ------------
+font-family: "Noto Sans CJK JP" , serif;
+font-family: "Noto Sans Japanese" , serif;
+font-weight
+ 200 - ExtraLight
+ 300 - Light
+ 400 - Regular
+ 500 - Medium
+ 600 - SemiBold
+ 700 - Bold
+ 900 - Black
+-------------------------------------------------- */
+/* Fjalla ------------
+font-family: 'Noto Serif JP', serif;
+200 - ExtraLight
+300 - Light
+400 - Regular
+500 - Medium
+600 - SemiBold
+700 - Bold
+900 - Black
+-------------------------------------------------- */
+/* Poppins ------------
+font-family: 'Poppins', sans-serif;
+font-weight
+-------------------------------------------------- */
+
+
+/************************************************************************************************************************************
+ .clearfix
+************************************************************************************************************************************/
+/*for IE 5.5-7*/
+.clr {
+	zoom: 1;
+	display: inline-table;
+}
+/*for modern browser*/
+.clr:after {
+	content:".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	font-size: 0;
+	line-height: 0;
+}
+* html .clr {
+	height: 1%;
+	display:inline-table;
+	/*\*/display:block;/**/
+}
+/* Hides from IE-mac \*/
+* html .clr {
+	height: 1%;
+}
+.clr {
+	display: block;
+}
+
+
+
+
+/************************************************************************************************************************************
+	reset-stylesheet
+************************************************************************************************************************************/
+/*- html5 -----------------------------*/
+header, footer, section, nav, article, aside, main {
+	display: block;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	min-width: 100%;
+	min-height: 100%;
+	background-color: #FFF;
+}
+
+body {
+position: relative;
+	color: #00183d;
+	width: 100%;
+	min-width: 1140px;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	font-family: "Noto Sans CJK JP" , 'Noto Sans JP', 'Noto Sans Japanese', "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+	line-height: 1.5;
+}
+
+/* WQHD *//*
+@media print, screen and (min-width: 2560px) {
+	body {
+		font-size: 18px;
+	}
+}
+/* 4K QFHD *//*
+@media print, screen and (min-width: 3840px) {
+	body {
+		font-size: 22px;
+	}
+}*/
+@media screen and (max-width: 767px) {
+	body {
+		overflow-x : hidden;
+		overflow-y : auto;
+		width: 100%;
+		min-width: auto;
+		min-width: initial;
+		-webkit-text-size-adjust: 100%;
+	}
+}
+
+dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, textarea, button,
+p, table, th, td , small, strong, em {
+	font-size: 100%;
+	font-style: normal;
+	font-weight: 400;
+	font-family: "Noto Sans CJK JP" , 'Noto Sans JP', 'Noto Sans Japanese', "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+	line-height: 1.5;
+}
+
+
+* img {
+	vertical-align: bottom;
+	border: none;
+	height: auto;
+max-width: 100%;
+}
+* a img {
+	border: none;
+}
+* a img.linkimg{
+	background: none;
+}
+* a:hover img.linkimg{
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	-ms-filter: "alpha( opacity=60 )";
+}
+.img img {
+	width: 100%;
+}
+
+
+a {
+	color: #00183d;
+	text-decoration: none;
+}
+a:link {
+	color: #00183d;
+}
+a:visited {
+	color: #00183d;
+}
+
+
+
+
+ul, ol, li {
+	list-style: none;
+}
+
+table, th, td, thead, tbody {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: none;
+	empty-cells: show;
+}
+
+

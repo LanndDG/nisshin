@@ -1,0 +1,386 @@
+@charset "utf-8";
+/************************************************************************************************************************************
+	全ページ共通
+************************************************************************************************************************************/
+/** .form_table *****************************************************************/
+table.form_table {
+	position: relative;
+	display: block;
+	-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;
+	width: 100%;
+	margin: 0 auto 50px;
+	background-color: #FFF;
+}
+table.form_table tbody {
+	display: table;
+	width: 100%;
+}
+
+table.form_table tbody th, 
+table.form_table tbody td {
+	line-height: 1.7;
+	text-align: left;
+	vertical-align: middle;
+}
+
+table.form_table tbody th {
+	color: #00183d;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: left;
+	white-space: nowrap;
+	padding: 14px 11px 14px 11px;
+	background-color: #fbfbfc;
+	border-bottom: solid 2px #00183d;
+}
+
+table.form_table tbody td {
+	color: #00183d;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 14px 23px 14px 23px;
+	background-color: inherit;
+	background-color: #FFF;
+	border-bottom: solid 2px #f2f3f5;
+}
+
+table.form_table .small {
+	font-size: 12px;
+}
+table.form_table .bold {
+	font-weight: 700;
+}
+
+table.form_table tbody td .text {
+	line-height: inherit;
+}
+
+
+@media print, screen and (min-width: 768px) {
+	table.form_table tbody th {
+		width: 191px;
+		height: 45px;
+	}
+
+	table.form_table tbody th.vertical_top {
+		vertical-align: top;
+		padding-top: 20px;
+	}
+
+	table.form_table tbody tr:first-child th {
+		border-top: solid 2px #00183d;
+	}
+	table.form_table tbody tr:first-child td {
+		border-top: solid 2px #f2f3f5;
+	}
+}
+@media screen and (max-width: 767px) {
+	table.form_table, 
+	table.form_table tbody, 
+	table.form_table tbody tr, 
+	table.form_table tbody th, 
+	table.form_table tbody td {
+		display: block;
+	}
+	table.form_table {
+		background-color: #FFF;
+	}
+	table.form_table tbody th, 
+	table.form_table tbody td {
+		font-size: 16px;
+	}
+	table.form_table tbody th {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 9px;
+		border-top: solid 2px #00183d;
+		border-bottom: none;
+	}
+	table.form_table tbody td {
+		border-bottom: none;
+		padding: 20px 9px;
+	}
+
+	table.form_table tbody tr:last-child td {
+		border-bottom: solid 2px #f2f3f5;
+	}
+}
+
+
+
+
+/** form input text
+*********************/
+.form_table input[type="text"], 
+.form_table input[type="email"], 
+.form_table input[type="password"], 
+.form_table input[type="url"], 
+.form_table input[type="telephone"], 
+.form_table input[type="number"], 
+.form_table input[type="datetime"] {
+	box-sizing: border-box;
+	font-size: 14px;
+	font-family: "Noto Sans CJK JP" , 'Noto Sans JP', 'Noto Sans Japanese', "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+max-width: 300px;
+	width: 100%;
+	padding: 4px 0.5em;
+	background-color: #f2f3f5;
+	border: 1px solid #f2f3f5;
+	border-radius: 0;
+border-radius: 0px;
+	-webkit-appearance: none;
+	box-shadow: none;
+}
+
+.form_table textarea {
+/*	resize: none;*/
+resize: vertical;
+	box-sizing: border-box;
+	font-size: 14px;
+	font-family: "Noto Sans CJK JP" , 'Noto Sans JP', 'Noto Sans Japanese', "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+/*max-width: 565px;*/
+	width: 100%;
+	padding: 2px 0.5em;
+	background-color: #f2f3f5;
+	border: 1px solid #f2f3f5;
+	border-radius: 0;
+border-radius: 0px;
+	-webkit-appearance: none;
+	box-shadow: none;
+	resize: none;
+}
+
+
+@media screen and (max-width: 767px) {
+	.form_table input[type="text"], 
+	.form_table input[type="email"], 
+	.form_table input[type="password"], 
+	.form_table input[type="url"], 
+	.form_table input[type="telephone"], 
+	.form_table input[type="number"], 
+	.form_table input[type="datetime"] {
+		max-width: none;
+	}
+	.form_table textarea {
+		max-width: none;
+		width: 100%;
+		margin-bottom: 0px;
+	}
+
+}
+
+
+
+
+/** .checkbox *****************************************************************/
+input.checkbox[type="checkbox"] {
+	-webkit-appearance: none;
+	box-sizing: border-box;
+	position: relative;
+	vertical-align: middle;
+
+	box-sizing: border-box;
+	position: relative;
+	vertical-align: inherit;
+	width: 12px;
+	height: 12px;
+	margin-right: 4px;
+	background: none;
+	background-color: #FFF;
+	border: solid 1px #a0a0a0;
+	border-radius: 0;
+
+
+	border: 1px solid #aaa;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	box-shadow: inset 1.286px 1.532px 3px 0px rgba(0, 0, 0, 0.15);
+}
+input.checkbox[type="checkbox"]:checked {
+	background-color: #539cf7;
+	box-shadow: none;
+}
+input.checkbox[type="checkbox"]:checked:before {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	content: "";
+	width: 4px;
+	height: 4px;
+	margin: auto;
+	background-color: #FFF;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+	box-shadow: none;
+}
+
+
+@media screen and (max-width: 767px) {
+	input.checkbox[type="checkbox"] {
+	}
+	input.checkbox[type="checkbox"]:checked {
+	}
+}
+
+
+
+
+/** .radio *****************************************************************/
+input.radio[type="radio"] {
+	-webkit-appearance: none;
+	box-sizing: border-box;
+	position: relative;
+	vertical-align: middle;
+
+	box-sizing: border-box;
+	position: relative;
+	vertical-align: inherit;
+	width: 15px;
+	height: 15px;
+	margin-right: 7px;
+	background: none;
+	background-color: #FFF;
+	border: solid 1px #838383;
+	box-shadow: none;
+	border-radius: 100%;
+}
+input.radio[type="radio"]:checked {
+	background-color: #109955;
+	box-shadow: none;
+}
+.radio_wrap {
+	letter-spacing: calc(19px - 0.4em);
+}
+.radio_wrap label {
+	display: inline-block;
+	font-size: 16px;
+	letter-spacing: 0;
+	line-height: 1;
+	vertical-align: bottom;
+}
+
+@media screen and (max-width: 767px) {
+	input.radio[type="radio"] {
+	}
+	input.radio[type="radio"]:checked {
+	}
+}
+
+
+
+
+/** .form_button *****************************************************************/
+.form_button_wrap {
+	text-align: center;
+	letter-spacing: normal;
+	width: 100%;
+	margin-bottom: 0px;
+}
+.form_button_wrap .form_button {
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	width: 100%;
+}
+.form_button_wrap .form_button button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;
+	display:inline-block;
+	cursor: pointer;
+	padding: 0;
+	background: none;
+	background-color: transparent;
+	border: none;
+	border-radius: 0;
+
+	position: relative;
+	z-index: 100;
+	display: inline-block;
+	color: #FFF;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 50px;
+	letter-spacing: 1px;
+	max-width: 150px;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	background-image: -moz-linear-gradient( 45deg, rgb(137,96,237) 0%, rgb(112,77,183) 100%);
+  background-image: -webkit-linear-gradient( 45deg, rgb(137,96,237) 0%, rgb(112,77,183) 100%);
+  background-image: -ms-linear-gradient( 45deg, rgb(137,96,237) 0%, rgb(112,77,183) 100%);
+}
+
+
+@media print, screen and (min-width: 768px) {
+}
+@media screen and (max-width: 767px) {
+	.form_button_wrap .form_button button {
+		font-size: 18px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+table.form_table tbody td .required_message {
+	color: #ff4851;
+}
+
+#formSubmit .message_area {
+	text-align: center;
+	background-color: #FFF;
+}
+#formSubmit .message_area .error {
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	padding: 10px 0;
+	margin-bottom: 40px;
+	border: solid 4px #ff4851;
+}
+#formSubmit .message_area .success {
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	padding: 10px 0;
+	margin-bottom: 40px;
+	border: solid 4px #43E0C6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#formSubmit .required_text {
+	display: block;
+	color: #ff0000;
+	padding-top: 8px;
+padding-bottom: 3px;
+background-color: #FFF;
+}

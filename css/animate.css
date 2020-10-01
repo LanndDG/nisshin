@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/************************************************************************************************************************************
+	@基本ブラウザ適用指定記述
+	transition: all 0.4s; -webkit-transition: all 0.4s; -moz-transition: all 0.4s; -ms-transition: all 0.4s; -o-transition: all 0.4s;
+	//	クリック系統はjsにてクラス付与
+************************************************************************************************************************************/
+/************************************************************************************************************************************
+	animate付与
+************************************************************************************************************************************/
+/* PC */
+@media print, screen and (min-width: 768px) {
+}
+/* SP */
+@media screen and (max-width: 767px) {
+}
+/* 両対応 */
+a:not(.no_animate) {
+	transition: all 0.3s; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.form_button_wrap .form_button button {
+	transition: all 0.3s; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;
+}
+.is_header_fixed #header {
+	transition: all 0.2s; -webkit-transition: all 0.2s; -moz-transition: all 0.2s; -ms-transition: all 0.2s; -o-transition: all 0.2s;
+}
+
+
+/************************************************************************************************************************************
+	hover
+************************************************************************************************************************************/
+/*
+	common hover
+*********************************************************************************/
+@media print, screen and (min-width: 768px) {
+	a:not(.no_opacity):hover {
+		opacity: 0.6;
+		filter: alpha(opacity=60);
+		-ms-filter: "alpha( opacity=60 )";
+	}
+}
+@media screen and (max-width: 767px) {
+	a:not(.no_opacity):active {
+		opacity: 0.6;
+		filter: alpha(opacity=60);
+		-ms-filter: "alpha( opacity=60 )";
+	}
+}
+
+
+
+
+/*
+	button hover
+*********************************************************************************/
+@media print, screen and (min-width: 768px) {
+	.form_button_wrap .form_button button:hover {
+		opacity: 0.6;
+		filter: alpha(opacity=60);
+		-ms-filter: "alpha( opacity=60 )";
+	}
+}
+@media screen and (max-width: 767px) {
+	.form_button_wrap .form_button button:active {
+		opacity: 0.6;
+		filter: alpha(opacity=60);
+		-ms-filter: "alpha( opacity=60 )";
+	}
+}
+
+
+
+
+
+
+/************************************************************************************************************************************
+	click @only
+************************************************************************************************************************************/
+/*
+
+*********************************************************************************/
+
+
+
+
+
+
+/************************************************************************************************************************************
+	click or active
+************************************************************************************************************************************/
+/*
+
+*********************************************************************************/
+
+
+
+
+
+
+/************************************************************************************************************************************
+	header
+************************************************************************************************************************************/
+#header.header_fixed_on {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#header.header_fixed_on.is_opacity_0 {
+	opacity: 0.0;
+}
+#header.header_fixed_on {
+}
+.is_header_fixed #header.header_fixed_on {
+	position: fixed;
+	opacity: 1.0;
+}
+
+.is_header_fixed #header.header_fixed_on .header_bg {
+}
+
+
+@media print, screen and (min-width: 768px) {
+	.is_index:not(.is_header_fixed) #header .header_bg {
+	}
+}
+@media print, screen and (min-width: 768px) and (max-width: 1968px) {
+	#header #nav {
+		margin-right: 8.1300813008130081300813008130081%;	/* 160/1968*100 */
+	}
+}
+@media print, screen and (min-width: 768px) and (max-width: 1300px) {
+	#header #nav {
+		margin-right: 1%;	/* 160/1600*100 */
+	}
+}
+@media print, screen and (min-width: 768px) and (max-width: 1400px) {
+	#header.header_fixed_on #nav ul li a {
+		font-size: 16px;
+	}
+	#header.header_fixed_on #nav ul li:not(.last):not(.header_contact)::after {
+		font-size: 16px;
+	}
+}
+@media print, screen and (min-width: 768px) and (max-width: 1140px) {
+	#header.header_fixed_on #nav ul li a {
+		font-size: 15px;
+	}
+	#header.header_fixed_on #nav ul li:not(.last):not(.header_contact)::after {
+		font-size: 15px;
+	}
+}
+@media print, screen and (min-width: 768px) and (max-width: 1040px) {
+	.is_header_fixed #header #nav ul li a {
+		font-size: 13px;
+	}
+	.is_header_fixed #header #nav ul li:not(.last):not(.header_contact)::after {
+		font-size: 13px;
+	}
+}
+
+
+@media screen and (max-width: 767px) {
+}
+
+
+
+
+
+
+
