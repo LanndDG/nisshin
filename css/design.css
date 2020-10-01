@@ -861,6 +861,10 @@
 	width: 100%;
 	height: 1px;
 }
+#business #section_01 .bg_img_01 {
+	padding: 38px 0 5px;
+	background: none;
+}
 
 
 @media print, screen and (min-width: 768px) {
@@ -879,6 +883,10 @@
 	#business #section_01 .img.size2:nth-last-child(5) {
 		margin-bottom: 0px;
 		margin-bottom: 0px;
+	}
+	#business #section_01 .bg_img_01 {
+		padding: 12px 0 0;
+		background: none;
 	}
 }
 
