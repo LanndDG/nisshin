@@ -1080,7 +1080,10 @@
 	}
 	#business #section_03 .img.size2 {
 		width: 48%;
-		margin-bottom: 20px;
+		margin-bottom: 10px;
+	}
+	#business #section_03 .justify-between {
+		margin-bottom: 10px;
 	}
 }
 
