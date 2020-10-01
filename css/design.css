@@ -913,7 +913,7 @@
 }
 
 @media screen and (max-width: 767px) {
-	#business #section_02_new .item_product {
+	/* #business #section_02_new .item_product {
 		display: block;
 		margin-bottom: 30px;
 		background: #f7faff;
@@ -925,7 +925,7 @@
 		width: auto;
 		text-align: center;
 		margin-bottom: 10px;
-	}
+	} */
 	#business .item_product .ctn_product {
 		width: 100%;
 		padding: 10px 20px 20px;
