@@ -1079,8 +1079,9 @@
 		background:#333;
 	}
 	#business #section_03 .img.size2 {
-		width: 48%;
+		width: 49%;
 		margin-bottom: 10px;
+		max-width: 100%;
 	}
 	#business #section_03 .justify-between {
 		margin-bottom: 10px;
